@@ -6,7 +6,7 @@ import pandas as pd
 st.title('Car Price Prediction in India')
 st.write('This wed app predicts the **Car Price** in India')
 
-model= pickle.load(open('model (1).pkl','rb'))
+model= pickle.load(open('model_uu.pkl','rb'))
 
 name=st.text_input('Name')
 location=st.text_input('Location')
